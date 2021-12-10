@@ -1,5 +1,6 @@
 class Dog:
 
-    def __init__(self, name, sits):
+    def __init__(self, name, trick_list):
+            trick_list = ["sits", "rolls over", "high paws", ]
             self.name = name
-            self.sits = sits
+            self.trick_list = trick_list
