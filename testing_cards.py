@@ -1,8 +1,8 @@
 import card
 import deck
 
-new_card = card.Card(9, "Hearts")
-print(new_card.suit)
+new_card = card.Card("9", "Hearts")
+print(new_card)
 
 other_card = card.Card("5", "Clubs")
 print(other_card)
